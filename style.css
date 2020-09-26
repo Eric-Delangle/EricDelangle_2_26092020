@@ -1,0 +1,99 @@
+/* Police */
+
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('fonts/raleway-black-webfont.woff2') format('woff2'),
+         url('fonts/raleway-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'ralewayblack';
+}
+
+/*  Titre et navigation */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#logo {
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+#navigation {
+  margin-right: 20px;
+
+}
+
+.grey {
+    color: #c8cace ;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ a {
+    text-decoration:  none;
+    margin: 15px;
+}
+
+a:active {
+    color: #7eb0fc;
+}
+
+.selected {
+    color: #7eb0fc;
+    border-top: 2px solid #0065FC;
+    padding: 25px;
+}
+
+.register {
+    color : #0065FC;
+}
+
+/* Filtres */
+
+.slogan {
+    margin-left: 20px;
+}
+
+.bloc_search {
+    display: flex;
+    margin-left: 20px;
+}
+
+.search {
+    width: 10%;
+    height: 50px;
+   margin-left: 0;
+}
+
+.first {
+    width: 3%;
+    height: 50px;
+    background-color: #d9dadd;
+    border-radius:   20px 0 0 20px ;
+}
+
+ i {
+    transform: translateY(50%);
+    transform: translateX(40%);
+}
+
+.third {
+    width: 6%;
+    border-radius:   0  20px  20px 0 ;
+    background-color: #0065FC;
+    color: #ffffff;
+}
