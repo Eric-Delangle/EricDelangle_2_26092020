@@ -16,7 +16,7 @@
   <!-- La navigation -->
   <header class="header">
     <div class="style-logo">
-      <img id="logo" src="images/logo.png" />
+      <img id="logo" src="images/logo/reservia@3x.png" />
     </div>
     <nav id="navigation">
       <ul classe="liste">
@@ -37,20 +37,224 @@
   <p class="slogan">Trouvez votre hébergement pour des vacances de rêve</p>
   <p class="slogan grey">En plein centre ville ou en pleine nature</p>
   <div class="bloc_search">
-    <div class="first"><i class="fas fa-map-marker-alt fa-2x "></i></div>
-    <input class ="slogan search" type="search"/>
+    <div class="first"><i class="fas fa-map-marker-alt fa-2x"></i></div>
+    <input class="slogan search" type="search"  placeholder="Marseille, France"/>
     <button class="third" type="submit">Rechercher</button>
   </div>
- 
 
   <!-- Section filtres -->
+<section id="filtre">
+  <div class="filtres marge_gauche">
+	
+	  <div class="filtre_inputs">
+		<p>Filtres</p>
+		  <div class="economique">
+			  <div class="icon">
+			<i class="icone fas fa-money-bill-wave fa-2x"></i>
+			</div>
+			<input class="filter_search" type="text"  placeholder="Economique"/>
+		  </div>
+		  <div class="familial">
+			  <div class="icon">
+			<i  id="fami_icone" class="fas fa-child fa-2x"></i>
+			</div>
+			<input class="filter_search" type="text"  placeholder="Familial"/>
+		  </div>
+		  <div class="romantique">
+			<div class="icon">
+			<i  id="rom_icone" class="far fa-heart fa-2x" ></i>
+			</div>
+			<input class="filter_search" type="text"  placeholder="Romantique"/>
+		  </div>
+		  <div class="animaux">
+			<div class="icon">
+			<i id="anim_icone" class="fas fa-dog fa-2x"></i>
+			</div>
+			<input class="filter_search" type="text"  placeholder="Animaux autorisés"/>
+		  </div>
+	  </div>
+  </div>
+</section>
+  <!--==== DEBUT DE LA SECTION PRESENTATION DES PRODUITS ====-->
+  <section id="presentation">
+    <p class="marge_gauche">Plus de 500 logements sont disponibles dans cette ville.</p>
 
-  <!-- Section presentation des produits -->
+	<div id="les_2_blocs">
+    <div id="deuxieme-bloc-presentation">
+	<!-- Locations -->
+		<div id="premier-bloc-presentation">
+			<p>Hébergements à Marseille</p>
+		  </div>
+      <div id="portfolio">
+		
+        <div class="img">
+          <figure class="photo">
+            <img
+              class="images"
+              src="images/hebergements/marcus.jpg"
+              alt="Auberge de la Cannebière"
+            />
+            <figcaption>
+              <div class="titre-legende">
+                <p>Auberge de la Cannebière</p>
+			  </div>
+			  <div class="fond_eyes">
+                <i class="etoile far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="img">
+          <figure class="photo">
+            <img
+              class="images"
+              src="images/hebergements/fred.jpg"
+              alt="Hotel du port"
+            />
+            <figcaption>
+              <div class="titre-legende">
+                <p>Hotel du port</p>
+			  </div>
+			  <div class="fond_eyes">
+                <i class="etoile far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="img">
+          <figure class="photo">
+            <img
+              class="images"
+              src="images/hebergements/reisetopia.jpg"
+              alt="Hotel les mouettes"
+            />
+            <figcaption>
+              <div class="titre-legende">
+                <p>Hotel les mouettes</p>
+			  </div>
+			  <div class="fond_eyes">
+                <i class="etoile far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="img">
+          <figure class="photo">
+            <img
+              class="images"
+              src="images/hebergements/annie.jpg"
+              alt="Hotel de la mer"
+            />
+            <figcaption>
+              <div class="titre-legende">
+                <p>Hotel de la mer</p>
+			  </div>
+			  <div class="fond_eyes">
+                <i class="etoile far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="img">
+          <figure class="photo">
+            <img
+              class="images"
+              src="images/hebergements/nicate.jpg"
+              alt="Auberge Le panier"
+            />
+            <figcaption>
+              <div class="titre-legende">
+                <p>Auberge Le panier</p>
+			  </div>
+			  <div class="fond_eyes">
+                <i class="etoile far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="img">
+          <figure class="photo">
+            <img
+              class="images"
+              src="images/hebergements/febrian.jpg"
+              alt="Hotel chez Amina"
+            />
+            <figcaption>
+              <div class="titre-legende">
+                <p>Hotel chez Amina</p>
+			  </div>
+			  <div class="fond_eyes">
+                <i class="etoile far fa-star"></i>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+	</div>
+	<!-- Populaires -->
+	<div class="troisieme-bloc-presentation">
+		
+	<div class="populaires">
+		<p>Les plus populaires</p>
+		<div class="img">
+			<figure class="photo">
+			  <img
+				class="images"
+				src="images/hebergements/febrian.jpg"
+				alt="Hotel chez Amina"
+			  />
+			  <figcaption>
+				<div class="titre-legende">
+				  <p>Hotel chez Amina</p>
+				</div>
+				<div class="fond_eyes">
+				  <i class="etoile far fa-star"></i>
+				</div>
+			  </figcaption>
+			</figure>
+		  </div>
+		  <div class="img">
+			<figure class="photo">
+			  <img
+				class="images"
+				src="images/hebergements/febrian.jpg"
+				alt="Hotel chez Amina"
+			  />
+			  <figcaption>
+				<div class="titre-legende">
+				  <p>Hotel chez Amina</p>
+				</div>
+				<div class="fond_eyes">
+				  <i class="etoile far fa-star"></i>
+				</div>
+			  </figcaption>
+			</figure>
+		  </div>
+		  <div class="img">
+			<figure class="photo">
+			  <img
+				class="images"
+				src="images/hebergements/febrian.jpg"
+				alt="Hotel chez Amina"
+			  />
+			  <figcaption>
+				<div class="titre-legende">
+				  <p>Hotel chez Amina</p>
+				</div>
+				<div class="fond_eyes">
+				  <i class="etoile far fa-star"></i>
+				</div>
+			  </figcaption>
+			</figure>
+		  </div>
+	</div>
+	</div>
+  </section>
+  <!--==== FIN DE LA SECTION "photoS" ====-->
 
   <!-- Section activités -->
 
   <!-- Footer -->
 
-  <body>
-  </body>
+  <body></body>
 </html>

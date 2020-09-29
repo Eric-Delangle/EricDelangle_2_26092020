@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'ralewayblack';
     src: url('fonts/raleway-black-webfont.woff2') format('woff2'),
-         url('fonts/raleway-black-webfont.woff') format('woff');
+            url('fonts/raleway-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -64,6 +64,15 @@ a:active {
 
 /* Filtres */
 
+::placeholder {
+    font-family: 'ralewayblack';
+    text-align: center;
+}
+
+button {
+    border: none;
+}
+
 .slogan {
     margin-left: 20px;
 }
@@ -96,4 +105,111 @@ a:active {
     border-radius:   0  20px  20px 0 ;
     background-color: #0065FC;
     color: #ffffff;
+}
+
+/* Filtres */
+
+#filtre {
+    margin-top: 25px;
+
+}
+
+.filtre_inputs {
+    display: flex;
+}
+
+.filter_search {
+    justify-content: space-around;
+    height: 50px;
+   margin-left: 0;
+   border-radius: 30px;
+   border: 2px solid  #dbdbdb;
+   outline:  none;
+}
+
+.icon {
+    border-radius: 50%;
+    background-color: #7eb0fc;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+}
+
+.icone {
+  margin: 0 auto;
+    cursor: pointer;
+}
+
+#fami_icone {
+    padding-top: 10px;
+    padding-left: 7.7px;
+    cursor: pointer;
+}
+
+#rom_icone {
+    padding-top: 10px;
+    padding-left: 7.7px;
+    cursor: pointer;
+}
+
+#anim_icone {
+    padding-top: 10px;
+    padding-left: 7.7px;
+    cursor: pointer;
+}
+
+/* presentation des produits */
+
+#presentation {
+    width:  100%;
+}
+
+#les_2_blocs {
+    display: flex;
+}
+
+.marge_gauche {
+    margin-left: 25px;
+}
+
+#deuxieme-bloc-presentation {
+    width:  70%;
+    background-color:  #F2F2F2 ;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+/*bloc qui comprend l'ensemble des images de la presentation */
+#portfolio {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* taille standard des images */
+.images {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+/* div blanche qui contient l'image et le texte */
+.img {
+    margin: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px  #d0d1d3;
+}
+
+/* Populaires */
+.troisieme-bloc-presentation {
+    margin-left: 30px;
+    width: 25%;
+}
+.populaires {
+    background-color: #F2F2F2 ;
+    border-radius: 20px;
+    padding: 30px;
 }
